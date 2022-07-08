@@ -69062,7 +69062,7 @@ case 2:o=c
 A.fk("Conectant al socket... token = "+A.d(o))
 A.fk("Conectant al room... token = "+a)
 p=t.N
-p=A.aGh("https://obscure-hollows-43329.herokuapp.com",A.a_(["transports",A.b(["websocket","polling"],t.s),"autoConnect",!0,"forceNew",!0,"extraHeaders",A.a_(["x-token",o,"room",a],p,t.T)],p,t.K))
+p=A.aGh("https://obscure-hollows-43329.herokuapp.com",A.a_(["autoConnect",!0,"forceNew",!0,"extraHeaders",A.a_(["x-token",o,"room",a],p,t.T)],p,t.K))
 q.b=p
 A.a(q.b,"_socket").f4(0,"connect",new A.a83(q))
 A.a(q.b,"_socket").f4(0,"disconnect",new A.a84(q))
