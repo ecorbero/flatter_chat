@@ -69015,7 +69015,7 @@ case 2:o=c
 A.fl("Conectant al socket... token = "+A.d(o))
 A.fl("Conectant al room... token = "+a)
 p=t.N
-p=A.aG_("https://flaterapp.herokuapp.com",A.a_(["transports",A.b(["polling"],t.s),"autoConnect",!1,"forceNew",!0,"extraHeaders",A.a_(["x-token",o,"room",a],p,t.T)],p,t.z))
+p=A.aG_("https://flaterapp.herokuapp.com",A.a_(["transports",A.b(["websocket"],t.s),"autoConnect",!1,"forceNew",!0,"extraHeaders",A.a_(["x-token",o,"room",a],p,t.T)],p,t.z))
 q.b=p
 A.a(p,"socket").M0()
 A.a(q.b,"socket").hz(0,"connect",new A.a7X(q))
